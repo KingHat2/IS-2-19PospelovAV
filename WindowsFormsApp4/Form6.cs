@@ -22,12 +22,14 @@ namespace WindowsFormsApp4
         {
                  Class1 conn = new Class1();
                 MySqlConnection connn = new MySqlConnection(conn.stringconn);
-                string fio = textBox1.Text;
-                string vremia = DateTime.Now.ToString("dd-MM-yyyy");
-                string sql = $"INSERT INTO t_PraktStud (fioStud, datetimeStud)  VALUES ('{fio}','{vremia}');";
+                string fioStud = textBox2.Text;
+                string time = DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss");
+                MessageBox.Show(time);
+                string timeStud = textBox1.Text == "" ? time : textBox1.Text;
+                string sql = $"INSERT INTO t_PraktStud (fioStud, datetimeStud)  VALUES ('{fioStud}','{timeStud}');";
                 int counter = 0;
-                try
-                {
+            try
+            {
                     connn.Open();
 
                     MySqlCommand command1 = new MySqlCommand(sql, connn);
@@ -35,14 +37,14 @@ namespace WindowsFormsApp4
                 }
                 catch
                 {
-                    MessageBox.Show("непофиксил");
+                    MessageBox.Show("ошибка");
                 }
                 finally
                 {
                     connn.Close();
                     if (counter != 0)
                     {
-                        MessageBox.Show("");
+                        MessageBox.Show("успешно");
                     }
                 }
             
