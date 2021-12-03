@@ -27,5 +27,18 @@ namespace WindowsFormsApp4
             Form4 Form4 = new Form4();
             Form4.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form5 Form5= new Form5();
+            Form5.ShowDialog();
+            //не знаю как фиксить
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form6 Form6 = new Form6();
+            Form6.ShowDialog();
+        }
     }
 }

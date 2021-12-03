@@ -55,7 +55,7 @@ namespace WindowsFormsApp4
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+       
         private System.Windows.Forms.DataGridView dataGridView2;
     }
 }
