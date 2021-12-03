@@ -18,5 +18,15 @@ namespace WindowsFormsApp4
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+       public class con
+        {
+            public string stringconn = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
+
+            public void ConnectInfo()
+            {
+                MessageBox.Show(stringconn);
+            }
+
+        }
     }
 }
