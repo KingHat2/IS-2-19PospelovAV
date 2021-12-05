@@ -32,7 +32,7 @@ namespace WindowsFormsApp4
         {
             Form5 Form5= new Form5();
             Form5.ShowDialog();
-            //не знаю как фиксить
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
