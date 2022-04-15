@@ -25,6 +25,7 @@ namespace WindowsFormsApp4
                 string password = "test_pass";
                 string connString = $"server={host};port={port};user={username};database={database};password={password};";
                 return connString;
+
             }
         }
         MySqlConnection conn = new MySqlConnection(DBUtils.GetDBConnection());

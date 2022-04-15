@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp4
 {
-    partial class Form2
+    partial class zadanie1
     {
         /// <summary>
         /// Required designer variable.
@@ -190,7 +190,7 @@ namespace WindowsFormsApp4
             this.label8.TabIndex = 16;
             this.label8.Text = "Количество потоков";
             // 
-            // Form2
+            // zadanie1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -212,7 +212,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
-            this.Name = "Form2";
+            this.Name = "zadanie1";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

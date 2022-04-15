@@ -36,9 +36,9 @@ namespace WindowsFormsApp4
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(12, 62);
+            this.dataGridView2.Location = new System.Drawing.Point(-1, -1);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(505, 267);
+            this.dataGridView2.Size = new System.Drawing.Size(582, 367);
             this.dataGridView2.TabIndex = 0;
             this.dataGridView2.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView2_CellMouseClick);
             // 

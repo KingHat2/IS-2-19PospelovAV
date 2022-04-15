@@ -12,7 +12,7 @@ namespace WindowsFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
+            zadanie1 Form2 = new zadanie1();
             Form2.ShowDialog();
         }
 
